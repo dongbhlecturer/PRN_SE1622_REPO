@@ -24,7 +24,13 @@ public class Program
 
         Employee e = new Employee(1,"Dong", new Address(493,"Phuong 13","CMT8","HCM"),new DateTime(),150.66d,"Fresher");
 
-        WriteLine(e);
+        Person p = new Employee();//Da hinh
+        WriteLine(p.Display());
+
+       
+
+
+        //WriteLine(e);
 
         ReadLine();
     }

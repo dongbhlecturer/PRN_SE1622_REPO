@@ -15,9 +15,9 @@ public class Employee:Person
     }
     public override string Display()
     {
-        return $"Id = {Id}, Salary = {Salary}, Level={Level}" + base.Display();
+        return $"EMPLOYEE - Id = {Id}, Salary = {Salary}, Level={Level}";
     }
 
-    public override string? ToString()=> $"Id = {Id}, Salary = {Salary}, Level={Level}" + base.Display();
+    public override string? ToString()=> $"Id = {Id}, Salary = {Salary}, Level={Level}" ;
 
 }
